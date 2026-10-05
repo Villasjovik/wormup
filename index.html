@@ -6,7 +6,7 @@
 <title>WormUp × Villa Sjövik</title>
 <link rel="icon" type="image/png" href="./wormup-favicon.png"/>
 <meta property="og:title" content="WormUp × Villa Sjövik — Collaboration proposal 2026"/>
-<meta property="og:description" content="Worm composting at Villa Sjövik, for 197,000 followers who grow plants at home."/>
+<meta property="og:description" content="WormUp at Villa Sjövik, for 197,000 followers who invest in a greener home and garden."/>
 <meta property="og:image" content="https://villasjovik.github.io/wormup/og-image.png"/>
 <meta property="og:image:width" content="1200"/>
 <meta property="og:image:height" content="630"/>
@@ -15,7 +15,7 @@
 <meta property="og:type" content="website"/>
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:title" content="WormUp × Villa Sjövik — Collaboration proposal 2026"/>
-<meta name="twitter:description" content="Worm composting at Villa Sjövik, for 197,000 followers who grow plants at home."/>
+<meta name="twitter:description" content="WormUp at Villa Sjövik, for 197,000 followers who invest in a greener home and garden."/>
 <meta name="twitter:image" content="https://villasjovik.github.io/wormup/og-image.png"/>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
@@ -203,10 +203,6 @@ background-image:radial-gradient(circle,rgba(212,168,75,.05) 1px,transparent 1px
 .h-side{flex:1;display:flex;min-width:0}
 .h-side-l{justify-content:flex-end;padding-right:8px}
 .h-side-r{justify-content:flex-start;padding-left:8px}
-.h-lockup::after{content:'';position:absolute;width:500px;height:130px;left:50%;top:50%;transform:translate(-50%,-50%);
-border-radius:50%;background:radial-gradient(ellipse,rgba(212,168,75,.09),transparent 70%);
-pointer-events:none;animation:haloPulse 4s ease-in-out infinite}
-@keyframes haloPulse{0%,100%{opacity:.5;transform:translate(-50%,-50%) scale(1)}50%{opacity:1;transform:translate(-50%,-50%) scale(1.1)}}
 .h-tag-p{display:flex;flex-direction:column;align-items:center;will-change:transform}
 .h-tagline{font-family:'Playfair Display',serif;font-size:clamp(24px,3.8vw,48px);font-weight:400;line-height:1.2;
 max-width:760px;margin-bottom:56px;text-wrap:pretty}
@@ -1289,7 +1285,7 @@ position:relative;overflow:hidden;transition:color .35s}
   *{cursor:auto!important}
   .sp-c:hover,.price-box:hover,.lc:hover,.gc:hover{transform:none!important}
 }
-/* WormUp: original mark on a rounded 3D plate; preserve fallback colours. */
+/* WormUp: original transparent mark, extruded without a plate; preserve fallback colours. */
 .hero-logo-brand .logo-flat{filter:none}
 </style>
 </head>
@@ -1317,20 +1313,20 @@ position:relative;overflow:hidden;transition:color .35s}
     <div class="h-lockup">
       <div class="h-side h-side-l">
         <div class="logo-3d hero-logo-brand"
-             data-svg="./wormup-plate.svg"
-             data-fallback="./wormup-plate.svg"
+             data-svg="./wormup.svg"
+             data-fallback="./wormup.svg"
              data-use-svg-color="true"
-             data-layer-gap="4"
-             data-tone="neutral" data-exposure="1.0"
+             data-layer-gap="0.5"
+             data-tone="neutral" data-exposure="2.0"
              data-material="metal" data-color="#1d1d1b" data-motion="float-spin"
              data-rotate-speed="0.3"
-             data-bevel-depth="14"
+             data-bevel-depth="100"
              data-sparks="true"
              data-shadow="true"
              data-delay="0"
              data-nudge-x="-12"
              style="width:42vw;height:26vw;max-width:500px;max-height:330px">
-          <img loading="lazy" decoding="async" class="logo-flat" src="./wormup-plate.svg" alt="" aria-hidden="true"/>
+          <img loading="lazy" decoding="async" class="logo-flat" src="./wormup.svg" alt="" aria-hidden="true"/>
         </div>
       </div>
       <span class="h-x">x</span>
@@ -1351,7 +1347,7 @@ position:relative;overflow:hidden;transition:color .35s}
       </div>
     </div>
     <div class="h-tag-p" data-par="5,4">
-    <h1 class="h-tagline">Worm composting at Villa Sjövik, for <em>197,000 followers</em> who grow plants at home.</h1>
+    <h1 class="h-tagline">WormUp at Villa Sjövik, for <em>197,000 followers</em> who invest in a greener home and garden.</h1>
     </div>
     <div class="h-scroll" aria-hidden="true">
       <span>Explore</span>
