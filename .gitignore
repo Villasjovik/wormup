@@ -1,0 +1,17 @@
+# Internt bygg-material — publiceras inte (metadata-hygien 2026-07-30)
+*-logo3d.json
+*-og-gen.mjs
+_preview-server.mjs
+source-material/
+gpt-input/
+gpt-output/
+.DS_Store
+
+# Metadata-hygien 2026-07-31: dessa nådde GitHub Pages från kopierade pitchar.
+# .assets-lock.json namnger ANDRA kunders varumärken i sina "brand"-fält.
+# README.md här är intern systemdok (propagation) — den serverades som
+# /README.html i 17 pitchar. Behöver en pitch en kundvänd README: git add -f.
+.assets-lock.json
+.claude/
+produktval-pm.md
+README.md
